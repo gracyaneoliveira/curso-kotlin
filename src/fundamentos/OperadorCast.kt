@@ -1,6 +1,7 @@
 package fundamentos
 
 fun imprimirConceito(nota: Any) {
+//    when (nota as? Int ?: 10)
     when (nota as? Int) { // cast opcional ao adicionar ?
         10, 9 -> println("A")
         8, 7 -> println("B")

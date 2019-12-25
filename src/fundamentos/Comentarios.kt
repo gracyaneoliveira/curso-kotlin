@@ -7,7 +7,7 @@ package fundamentos
  */
 fun main(args: Array<String>) {
     //Comentário de uma linha
-    print("comentarios");
+    print("comentários");
 
     /*
      mais de uma linha
